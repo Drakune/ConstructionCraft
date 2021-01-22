@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ConstructCraft">
+    <output-path>$USER_HOME$/Desktop/Minecraft Server/plugins</output-path>
+    <root id="archive" name="ConstructCraft.jar">
+      <element id="module-output" name="ConstructionCraft" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>
