@@ -29,6 +29,7 @@ public class Main extends JavaPlugin implements Listener {
 
         CmdExec executor = new CmdExec(this);
         getCommand(executor.cmdGoto).setExecutor(executor);
+        getCommand(executor.cmdConstruct).setExecutor(executor);
 
         this.getServer().getPluginManager().registerEvents(this, this);
     }

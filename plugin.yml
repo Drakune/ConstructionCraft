@@ -4,5 +4,9 @@ name: ConstructCraft
 
 commands:
   goto:
-    #usage: /<command> [x] [y] [z]
-    description: Teleportiert dich zu dem gewünschten Ort
+    #usage: /<command> [player] / [x] [y] [z]
+    description: Teleportiert dich zu dem gewünschten Ort.
+
+  cc:
+    #usage: /<command> [pos1/pos2]
+    description: Speichert oder lädt ein Gebäude, die zuvor gespeichert wurden.
